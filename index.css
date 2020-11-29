@@ -9,7 +9,7 @@ body {
     width: 100vw;
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-image: url("https://static.stereogum.com/uploads/2020/05/run-the-jewels-rtj4-1589298938.jpeg");
     display: flex;
     flex-direction: column;
@@ -63,3 +63,39 @@ a:hover {
     text-align: center;
     text-shadow: 4px 2px 10px rgb(0, 0, 0);
 }
+
+.dropdown-content a {
+    border: 1px solid white;
+    flex: 1;
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: visible;
+  }
+  
+  .dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .show {
+    display: flex;
+  }
