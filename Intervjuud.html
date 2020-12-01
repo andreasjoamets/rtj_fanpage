@@ -1,50 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
 
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intervjuud</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="diskograafia.css">
+    <link rel="stylesheet" href="intervjuud.css">
 </head>
+
 <body>
+    <script src="index.js"></script>
     <div class="header">
-        <img class="headerimg" src="https://www.rollingstone.com/wp-content/uploads/2020/06/RTJ_Timothy-Saccenti2.jpg" alt=""></img>
+        <img class="headerimg" src="https://www.rollingstone.com/wp-content/uploads/2020/06/RTJ_Timothy-Saccenti2.jpg"
+            alt=""></img>
         <nav class="nav">
-            <a href="homepage.html">Artistist</a>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">Artistist
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content show" id="myDropdown">
+                    <a href="killermike.html">Killer Mike</a>
+                    <a href="elp.html">El-P</a>
+                </div>
+            </div>
             <a href="diskograafia.html">Diskograafia</a>
-            <a href="homepage.html">Intervjuud</a>
+            <a href="intervjuud.html">Intervjuud</a>
         </nav>
     </div>
-
-<style>
-
-div.full-width {position:relative;float:left;width:100%;}
-
-@media screen
-
-  and (min-width: 751px), screen and (min-device-width:751) {
-
-div.video {position:relative;float:left;padding:5px;width:30%;}
-
-iframe {width:100%;}
-
-}
-
-}
-
-</style>
-
-<div class="full-width">
-
-<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZibqbzEEpw8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-
-<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/UsnRRq-jqvg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-
-<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/klta75ld4Kc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
-
-</div>
+    <div>
+        <h1 class="jututekst">Run the Jewels koosneb esinejatest, kes võtavad sõna nii sotsiaalsetel kui musikaalsetel
+            teemadel. Siin on lingitud mõned intervjuud Killer Mike ja El-Pga, kus nad enda ettevõtmisi ning vaateid
+            selgitavad</h1>
+    </div>
+    <div class="videocontent">
+        <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/ZibqbzEEpw8"
+                frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe></div>
+        <div class="videotekst">Killer Mike räägib oma pangast jms </div>
+    </div>
+    <div class="videocontent">
+    <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/UsnRRq-jqvg" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <div class="videotekst">Teine video millestki</div>
+    </div>
+    <div class="videocontent">
+    <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/klta75ld4Kc" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe></div>
+        <div class="videotekst">Kolmas video millestki</div>
+    </div>
+    </div>
 </body>
 
 </html>

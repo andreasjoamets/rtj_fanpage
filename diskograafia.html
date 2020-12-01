@@ -7,24 +7,35 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="diskograafia.css">
 </head>
+
 <body>
+    <script src="index.js"></script>
     <div class="header">
         <img class="headerimg" src="https://www.rollingstone.com/wp-content/uploads/2020/06/RTJ_Timothy-Saccenti2.jpg" alt=""></img>
         <nav class="nav">
-            <a href="homepage.html">Artistist</a>
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">Artistist
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content show" id="myDropdown">
+                    <a href="killermike.html">Killer Mike</a>
+                    <a href="elp.html">El-P</a>
+                </div>
+            </div> 
             <a href="diskograafia.html">Diskograafia</a>
-            <a href="homepage.html">Intervjuud</a>
+            <a href="intervjuud.html">Intervjuud</a>
         </nav>
     </div>
-    <h1 class="kirjeldustekst">RUn The Jewels diskograafia</h1>
-    <div>Run the jewels 1 (2000)</div>
-    <div><img src="https://upload.wikimedia.org/wikipedia/en/2/20/Run_the_jewels_ep_album_cover.jpg"></img></div>
-    <div>Run the jewels 2 (2005)</div>
-    <div><img src="https://upload.wikimedia.org/wikipedia/en/9/93/RunTheJewelsRTJ2.jpg"></img></div>
-    <div>Run the jewels 3 (2010)</div>
-    <div><img src="https://upload.wikimedia.org/wikipedia/en/9/96/RunTheJewels3.jpg"></img></div>
-    <div>Run the jewels 4 (2020)</div>
-    <div><img src="https://upload.wikimedia.org/wikipedia/en/a/af/Run_the_Jewels_-_RTJ4.png"></img></div>
+    <h1 class="kirjeldustekst">Run The Jewels diskograafia</h1>
+    <div class="jututekst">Kõik albumid lasti välja tasuta, kliki pildil, et jõuda täisalbumi playlistile</div>
+    <div class="kirjeldustekst">Run the jewels 1 (2013)</div>
+    <div><a href = "https://www.youtube.com/watch?v=ELQvYVDPmb4&list=PL_rR2s4GqBlaBcCVtPjQKP89jn0Q1TvGF"><img src="https://upload.wikimedia.org/wikipedia/en/2/20/Run_the_jewels_ep_album_cover.jpg"></img></a></div>
+    <div class="kirjeldustekst">Run the jewels 2 (2014)</div>
+    <div><a href = "https://www.youtube.com/watch?v=6sRQ9q4hzv4&list=PL_rR2s4GqBlZisb9D65sfOsd0ahQhBiWY"><img src="https://upload.wikimedia.org/wikipedia/en/9/93/RunTheJewelsRTJ2.jpg"></img></a></div>
+    <div class="kirjeldustekst">Run the jewels 3 (2016)</div>
+    <div><a href = "https://www.youtube.com/watch?v=4ApKKfyZuVY&list=PL_rR2s4GqBlaK54uEN2WenZZ2n_XnBevs"><img src="https://upload.wikimedia.org/wikipedia/en/9/96/RunTheJewels3.jpg"></img></a></div>
+    <div class="kirjeldustekst">Run the jewels 4 (2020)</div>
+    <div><a href = "https://www.youtube.com/watch?v=_DFypFVnSS0&list=PL_rR2s4GqBlaoriE6n0AvLGu_3e0_nHgr"><img src="https://upload.wikimedia.org/wikipedia/en/a/af/Run_the_Jewels_-_RTJ4.png"></a></img></div>
 
 </body>
 </html>
