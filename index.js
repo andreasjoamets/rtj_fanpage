@@ -11,4 +11,4 @@ window.onclick = function(e) {
       myDropdown.classList.add('show');
     }
   }
-}
+} // Antud javascripti lõik on võetud w3schools lehelt: https://www.w3schools.com/howto/howto_js_dropdown.asp
