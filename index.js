@@ -3,7 +3,7 @@ function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
-// Kui ma kuhugi lehe peale vajutan, siis ta paneb menüü kinni
+// Kui ma kuhugi mujale lehe peale vajutan, siis ta paneb menüü kinni
 window.onclick = function(e) {
   if (!e.target.matches('.dropbtn')) {
   var myDropdown = document.getElementById("myDropdown");
